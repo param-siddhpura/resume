@@ -4,24 +4,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Param Siddhpura | Analyst | Research & Data Management</title>
+  <title>Param Siddhpura | Aspiring AI Engineer | Applied AI & IT Undergrad</title>
   <meta name="description"
-    content="Analyst with experience in web research, data management, lead generation, professional communication, and Microsoft Office tools.">
+    content="Portfolio of Param Siddhpura, an Information Technology engineering student at GTU exploring Applied AI, Machine Learning, RAG architectures, and data-driven intelligent software.">
   <meta name="author" content="Param Siddhpura">
   <meta name="robots" content="index, follow">
 
   <!-- Open Graph / Social Media Metadata -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Param Siddhpura | Analyst | Research & Data Management">
+  <meta property="og:title" content="Param Siddhpura | Aspiring AI Engineer | Applied AI & IT Undergrad">
   <meta property="og:description"
-    content="Analyst specializing in web research, data collection, lead generation, and structured data organization.">
+    content="IT engineering student building toward Applied AI Engineering: exploring Machine Learning, RAG applications, Python backend services, and structured data systems.">
+  <meta property="og:url" content="https://param-siddhpura.github.io/Portfolio-site/">
   <meta property="og:locale" content="en_US">
 
-  <!-- Google Fonts -->
+  <!-- Google Fonts: Inter, Plus Jakarta Sans, JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
     rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css">
@@ -29,35 +30,39 @@
 
 <body>
 
-  <!-- Header / Navigation -->
+  <!-- Site Header & Sticky Navigation -->
   <header class="site-header" id="site-header">
     <div class="container header-container">
-      <a href="#hero" class="brand-logo">
+      <a href="#hero" class="brand-logo" aria-label="Param Siddhpura - Home">
         <span class="brand-name">Param Siddhpura</span>
-        <span class="brand-title">Analyst • Data & Research</span>
+        <span class="brand-title">Applied AI • IT Undergrad @ GTU</span>
       </a>
 
+      <!-- Desktop Navigation Links -->
       <nav class="desktop-nav" aria-label="Main Navigation">
         <ul class="nav-list">
           <li><a href="#hero" class="nav-link active">Home</a></li>
           <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="#experience" class="nav-link">Experience</a></li>
-          <li><a href="#research" class="nav-link">Research</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#case-studies" class="nav-link">Case Studies</a></li>
           <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#architecture" class="nav-link">Architecture</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
           <li><a href="#education" class="nav-link">Education</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
       </nav>
 
+      <!-- Header Actions -->
       <div class="header-actions">
-        <a href="assets/Resume.pdf" download="Resume.pdf" class="btn btn-primary header-btn">
-          <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <a href="assets/Resume.pdf" download="Resume.pdf" class="btn btn-primary btn-sm" aria-label="Download Resume PDF">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
             <polyline points="7 10 12 15 17 10"></polyline>
             <line x1="12" y1="15" x2="12" y2="3"></line>
           </svg>
-          <span>Download Resume</span>
+          <span>Resume</span>
         </a>
 
         <button class="mobile-menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
@@ -72,17 +77,19 @@
     <div class="mobile-nav-drawer" id="mobile-drawer">
       <ul class="mobile-nav-list">
         <li><a href="#hero" class="mobile-nav-link">Home</a></li>
-        <li><a href="#about" class="mobile-nav-link">About</a></li>
-        <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
-        <li><a href="#research" class="mobile-nav-link">Research</a></li>
+        <li><a href="#about" class="mobile-nav-link">About Me</a></li>
+        <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+        <li><a href="#case-studies" class="mobile-nav-link">Case Studies</a></li>
         <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+        <li><a href="#architecture" class="mobile-nav-link">System Architecture</a></li>
+        <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
         <li><a href="#education" class="mobile-nav-link">Education</a></li>
         <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
       </ul>
       <div class="mobile-drawer-footer">
         <a href="assets/Resume.pdf" download="Resume.pdf" class="btn btn-primary w-full">
-          <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
             <polyline points="7 10 12 15 17 10"></polyline>
             <line x1="12" y1="15" x2="12" y2="3"></line>
@@ -94,165 +101,179 @@
   </header>
 
   <main>
-    <!-- Hero Section -->
+    <!-- ==========================================================================
+         Section 1: Hero Section
+         ========================================================================== -->
     <section class="hero-section" id="hero">
       <div class="container hero-container">
-        <div class="hero-content">
-          <div class="hero-label-badge">
-            <span class="pulse-dot"></span>
-            ANALYST • RESEARCH • DATA MANAGEMENT
-          </div>
-          <h1 class="hero-headline">Researching Information. Organizing Data. Creating Clarity.</h1>
-          <p class="hero-description">
-            Analyst with practical experience in web research, lead generation, data collection, data organization, and
-            professional communication.
-          </p>
-          <div class="hero-cta-group">
-            <a href="#experience" class="btn btn-primary btn-lg">
-              <span>View Experience</span>
-              <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </a>
-            <a href="assets/Resume.pdf" download="Resume.pdf" class="btn btn-secondary btn-lg">
-              <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                <polyline points="7 10 12 15 17 10"></polyline>
-                <line x1="12" y1="15" x2="12" y2="3"></line>
-              </svg>
-              <span>Download Resume</span>
-            </a>
-            <a href="https://www.linkedin.com/in/param-siddhpura-749522366" target="_blank" rel="noopener noreferrer"
-              class="btn btn-icon-only" aria-label="LinkedIn Profile">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round">
-                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                <rect x="2" y="9" width="4" height="12"></rect>
-                <circle cx="4" cy="4" r="2"></circle>
-              </svg>
-            </a>
-          </div>
-
-          <div class="hero-quick-meta">
-            <div class="quick-meta-item">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                <circle cx="12" cy="10" r="3"></circle>
-              </svg>
-              <span>Bhavnagar, Gujarat, India</span>
-            </div>
-            <div class="quick-meta-item">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
-                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
-              </svg>
-              <span>BE Information Technology (2028)</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Abstract Data & Research Visual -->
-        <div class="hero-visual-wrapper">
-          <div class="hero-visual-card">
-            <div class="visual-header">
-              <div class="window-dots">
-                <span class="dot dot-red"></span>
-                <span class="dot dot-yellow"></span>
-                <span class="dot dot-green"></span>
-              </div>
-              <div class="visual-title">Data Analytics & Research Console</div>
-              <div class="status-badge">
-                <span class="status-indicator"></span> Verified Lead Records
-              </div>
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-label-badge">
+              <span class="pulse-dot"></span>
+              Aspiring AI Engineer • IT Undergrad @ GTU
             </div>
 
-            <div class="visual-body">
-              <!-- Grid / Spreadsheet Visual Component -->
-              <div class="spreadsheet-preview">
-                <div class="sheet-toolbar">
-                  <span class="sheet-tag">MS Excel • Contact Database</span>
-                  <span class="sheet-stats">Clean Data Structure</span>
+            <h1 class="hero-headline">
+              Building Intelligent Applications <span class="text-accent">with AI</span>
+            </h1>
+
+            <p class="hero-description">
+              I'm an Information Technology engineering student exploring Applied AI, machine learning, and intelligent
+              software systems. I enjoy turning technical concepts into practical applications and building my skills
+              through hands-on projects.
+            </p>
+
+            <div class="hero-pills">
+              <span class="hero-pill">Applied AI Engineering</span>
+              <span class="hero-pill">Machine Learning</span>
+              <span class="hero-pill">RAG Architectures</span>
+              <span class="hero-pill">Python & REST APIs</span>
+              <span class="hero-pill">Data Pipelines</span>
+            </div>
+
+            <div class="hero-cta-group">
+              <a href="#projects" class="btn btn-primary btn-lg">
+                <span>View Projects</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+
+              <a href="assets/Resume.pdf" download="Resume.pdf" class="btn btn-secondary btn-lg">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                <span>Download Resume</span>
+              </a>
+
+              <a href="https://github.com/param-siddhpura" target="_blank" rel="noopener noreferrer"
+                class="btn btn-icon-only" aria-label="GitHub Profile">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                  </path>
+                </svg>
+              </a>
+
+              <a href="https://www.linkedin.com/in/param-siddhpura/" target="_blank" rel="noopener noreferrer"
+                class="btn btn-icon-only" aria-label="LinkedIn Profile">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+            </div>
+
+            <div class="hero-meta-strip">
+              <div class="meta-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>Bhavnagar, Gujarat, India</span>
+              </div>
+              <div class="meta-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+                <span>BE Information Technology (GTU, 2028)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Technical Visual: Clean RAG / AI Architecture Console -->
+          <div class="hero-visual-wrapper">
+            <div class="hero-visual-card">
+              <div class="visual-header">
+                <div class="window-dots">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
                 </div>
-                <div class="sheet-grid">
-                  <div class="sheet-row sheet-head">
-                    <span class="col-id">#</span>
-                    <span class="col-org">Organization</span>
-                    <span class="col-prog">Programme / Contact</span>
-                    <span class="col-status">Outreach Status</span>
-                  </div>
-                  <div class="sheet-row">
-                    <span class="col-id">01</span>
-                    <span class="col-org">Academic Institute</span>
-                    <span class="col-prog">Research Outreach Lead</span>
-                    <span class="col-status status-verified">Organized</span>
-                  </div>
-                  <div class="sheet-row">
-                    <span class="col-id">02</span>
-                    <span class="col-org">Sneha Foundation</span>
-                    <span class="col-prog">Lead Verification & Logs</span>
-                    <span class="col-status status-verified">Analyzed</span>
-                  </div>
-                  <div class="sheet-row">
-                    <span class="col-id">03</span>
-                    <span class="col-org">Education Org</span>
-                    <span class="col-prog">Official Correspondence</span>
-                    <span class="col-status status-active">In Progress</span>
-                  </div>
-                </div>
+                <div class="visual-title">rag_orchestrator.py • Pipeline View</div>
+                <div class="visual-status-pill">Active Flow</div>
               </div>
 
-              <!-- Node / Flow Diagram Visual -->
-              <div class="research-flow-grid">
-                <div class="flow-step">
-                  <div class="step-icon">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <circle cx="11" cy="11" r="8"></circle>
-                      <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              <div class="visual-body">
+                <div class="pipeline-diagram">
+                  <div class="pipeline-node">
+                    <div class="node-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                      </svg>
+                    </div>
+                    <div class="node-content">
+                      <div class="node-label">
+                        <span>1. Document & Query Ingestion</span>
+                        <span class="badge-tag">Input</span>
+                      </div>
+                      <span class="node-tech">Text chunking, metadata extraction & preprocessing</span>
+                    </div>
+                  </div>
+
+                  <div class="node-connector">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <line x1="12" y1="5" x2="12" y2="19"></line>
+                      <polyline points="19 12 12 19 5 12"></polyline>
                     </svg>
                   </div>
-                  <div class="step-text">
-                    <span class="step-title">Web Research</span>
-                    <span class="step-desc">Identifying Contacts</span>
+
+                  <div class="pipeline-node">
+                    <div class="node-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                        <polyline points="2 17 12 22 22 17"></polyline>
+                        <polyline points="2 12 12 17 22 12"></polyline>
+                      </svg>
+                    </div>
+                    <div class="node-content">
+                      <div class="node-label">
+                        <span>2. Dense Embeddings & Vector Search</span>
+                        <span class="badge-tag">Retrieval</span>
+                      </div>
+                      <span class="node-tech">Cosine similarity search over indexed course notes</span>
+                    </div>
                   </div>
-                </div>
-                <div class="flow-arrow">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <polyline points="9 18 15 12 9 6"></polyline>
-                  </svg>
-                </div>
-                <div class="flow-step">
-                  <div class="step-icon">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                      <polyline points="14 2 14 8 20 8"></polyline>
-                      <line x1="16" y1="13" x2="8" y2="13"></line>
-                      <line x1="16" y1="17" x2="8" y2="17"></line>
+
+                  <div class="node-connector">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <line x1="12" y1="5" x2="12" y2="19"></line>
+                      <polyline points="19 12 12 19 5 12"></polyline>
                     </svg>
                   </div>
-                  <div class="step-text">
-                    <span class="step-title">Data Structuring</span>
-                    <span class="step-desc">MS Excel Recordkeeping</span>
+
+                  <div class="pipeline-node">
+                    <div class="node-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="3"></circle>
+                        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                      </svg>
+                    </div>
+                    <div class="node-content">
+                      <div class="node-label">
+                        <span>3. Grounded Synthesis & Guardrails</span>
+                        <span class="badge-tag">Inference</span>
+                      </div>
+                      <span class="node-tech">LLM context fusion with source citations & verification</span>
+                    </div>
                   </div>
                 </div>
-                <div class="flow-arrow">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <polyline points="9 18 15 12 9 6"></polyline>
-                  </svg>
-                </div>
-                <div class="flow-step">
-                  <div class="step-icon">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                      <polyline points="22,6 12,13 2,6"></polyline>
-                    </svg>
-                  </div>
-                  <div class="step-text">
-                    <span class="step-title">Outreach Support</span>
-                    <span class="step-desc">Professional Emails</span>
-                  </div>
+
+                <div class="console-summary-box">
+                  <span>Architecture: <strong>Retrieval-Augmented Generation</strong></span>
+                  <span>Validation: <strong>Grounded</strong></span>
                 </div>
               </div>
             </div>
@@ -261,75 +282,114 @@
       </div>
     </section>
 
-    <!-- About Section -->
-    <section class="section about-section" id="about">
+    <!-- ==========================================================================
+         Section 2: About Me
+         ========================================================================== -->
+    <section class="section section-alt about-section" id="about">
       <div class="container">
         <div class="section-header">
           <span class="section-subtitle">BACKGROUND & OBJECTIVE</span>
           <h2 class="section-title">About Me</h2>
+          <p class="section-desc">
+            Bridging fundamental information technology principles with practical, applied artificial intelligence
+            development.
+          </p>
           <div class="section-divider"></div>
         </div>
 
         <div class="about-grid">
           <div class="about-main-text">
             <p class="lead-paragraph">
-              Analyst pursuing a Bachelor of Engineering in Information Technology, with practical experience in online
-              and web-based research, email lead generation, data collection, and data organization.
+              I am an undergraduate student pursuing a <strong>Bachelor of Engineering in Information Technology</strong> at
+              Shantilal Shah Government Engineering College, Bhavnagar, affiliated with Gujarat Technological University (GTU).
             </p>
             <p>
-              Skilled in <strong>MS Excel</strong> for data analysis and recordkeeping, <strong>MS Word</strong> for
-              document and correspondence preparation, and professional email communication. Hands-on experience gained
-              through work with <strong>Sneha Foundation</strong>, supporting research, outreach, and administrative
-              functions directly relevant to an Analyst role.
+              My technical path is focused on <strong>Applied AI Engineering</strong>: moving beyond static machine
+              learning scripts to build reliable, functional software systems. I am developing hands-on competencies in
+              <strong>Python programming, data preprocessing, machine learning model evaluation, and LLM application design</strong>,
+              specifically architectures like Retrieval-Augmented Generation (RAG).
             </p>
             <p>
-              Possesses strong written and spoken English skills with a keen eye for detail, structured recordkeeping,
-              and organized information management.
+              Before diving deeper into machine learning, I built practical discipline through real-world organizational
+              work with <strong>Sneha Foundation</strong>. That experience sharpened my abilities in systematic data
+              collection, spreadsheet hygiene, information extraction, and professional documentation—transferable skills
+              that are essential for preparing quality datasets and building resilient AI data pipelines.
             </p>
+            <p>
+              I believe the most effective way to understand artificial intelligence is to build with it: designing
+              clean APIs, handling data validation rigorously, testing edge cases, and measuring model accuracy against
+              factual ground truths.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-box">
+                <h4>Applied Mindset</h4>
+                <p>Focusing on software integration, API endpoints, and practical utility rather than theoretical hype.</p>
+              </div>
+              <div class="highlight-box">
+                <h4>Data Discipline</h4>
+                <p>Experience in data hygiene, structured categorization, and meticulous recordkeeping.</p>
+              </div>
+            </div>
           </div>
 
           <div class="about-cards-column">
             <div class="info-card">
-              <div class="card-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <div class="info-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
                   <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
                 </svg>
               </div>
-              <div class="card-content">
-                <span class="card-label">CURRENTLY</span>
-                <span class="card-value">BE Information Technology</span>
-                <span class="card-subtext">Shantilal Shah Engineering College, GTU</span>
+              <div class="info-card-content">
+                <span class="info-card-label">CURRENT PROGRAM</span>
+                <span class="info-card-value">BE in Information Technology</span>
+                <span class="info-card-subtext">Shantilal Shah Govt Engg College, GTU</span>
               </div>
             </div>
 
             <div class="info-card">
-              <div class="card-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <div class="info-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
                   <line x1="16" y1="2" x2="16" y2="6"></line>
                   <line x1="8" y1="2" x2="8" y2="6"></line>
                   <line x1="3" y1="10" x2="21" y2="10"></line>
                 </svg>
               </div>
-              <div class="card-content">
-                <span class="card-label">EXPECTED GRADUATION</span>
-                <span class="card-value">2028</span>
-                <span class="card-subtext">Undergraduate Programme</span>
+              <div class="info-card-content">
+                <span class="info-card-label">ACADEMIC TIMELINE</span>
+                <span class="info-card-value">2024 – 2028 (Expected)</span>
+                <span class="info-card-subtext">Undergraduate Engineering</span>
               </div>
             </div>
 
             <div class="info-card">
-              <div class="card-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <div class="info-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+              </div>
+              <div class="info-card-content">
+                <span class="info-card-label">PRIMARY INTEREST</span>
+                <span class="info-card-value">Applied AI Engineering</span>
+                <span class="info-card-subtext">LLM Applications, RAG & Machine Learning</span>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                   <circle cx="12" cy="10" r="3"></circle>
                 </svg>
               </div>
-              <div class="card-content">
-                <span class="card-label">BASED IN</span>
-                <span class="card-value">Bhavnagar, Gujarat</span>
-                <span class="card-subtext">India</span>
+              <div class="info-card-content">
+                <span class="info-card-label">LOCATION</span>
+                <span class="info-card-value">Bhavnagar, Gujarat</span>
+                <span class="info-card-subtext">India</span>
               </div>
             </div>
           </div>
@@ -337,16 +397,931 @@
       </div>
     </section>
 
-    <!-- Experience Section -->
-    <section class="section experience-section" id="experience">
+    <!-- ==========================================================================
+         Section 3: Featured Projects
+         ========================================================================== -->
+    <section class="section projects-section" id="projects">
       <div class="container">
         <div class="section-header">
-          <span class="section-subtitle">PRACTICAL WORK EXPERIENCE</span>
-          <h2 class="section-title">Relevant Experience</h2>
+          <span class="section-subtitle">PROJECT PORTFOLIO</span>
+          <h2 class="section-title">Featured Projects & Systems</h2>
+          <p class="section-desc">
+            A transparent showcase of planned applied AI system architectures, ongoing prototypes, and verified data &
+            research implementations.
+          </p>
           <div class="section-divider"></div>
         </div>
 
-        <!-- Main Timeline Item -->
+        <!-- Filter Bar -->
+        <div class="projects-filter-bar">
+          <button class="filter-btn active" data-filter="all">All Projects (5)</button>
+          <button class="filter-btn" data-filter="ai">AI & Machine Learning (3)</button>
+          <button class="filter-btn" data-filter="data">Data & Research (2)</button>
+        </div>
+
+        <div class="projects-grid" id="projects-grid">
+          <!-- Project 1: College Notes AI Assistant (AI - Planned/Architecture) -->
+          <article class="project-card" data-category="ai">
+            <div class="project-card-header">
+              <div class="project-meta-row">
+                <span class="project-category-badge">Applied AI / RAG</span>
+                <span class="status-badge status-planned">
+                  <span class="dot dot-yellow" style="width:6px;height:6px;"></span>
+                  Architecture Designed
+                </span>
+              </div>
+              <h3 class="project-title">College Notes AI Assistant</h3>
+              <p class="project-tagline">Retrieval-Augmented Generation for Course Materials</p>
+            </div>
+
+            <div class="project-card-body">
+              <p class="project-problem-solution">
+                <strong>Problem:</strong> Students struggle to query dense lecture notes and textbook slides quickly,
+                while public LLMs lack course-specific context and frequently hallucinate.<br>
+                <strong>Proposed Solution:</strong> A document QA application utilizing semantic chunking, vector
+                embeddings in ChromaDB, cosine similarity retrieval, and prompt context injection with grounded source
+                citations.
+              </p>
+
+              <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">RAG Architecture</span>
+                <span class="project-tag">FastAPI</span>
+                <span class="project-tag">Vector DB</span>
+                <span class="project-tag">Citation Grounding</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <div class="project-card-links">
+                <a href="#case-studies" class="project-link">
+                  <span>View Architecture</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+              <a href="https://github.com/param-siddhpura" target="_blank" rel="noopener noreferrer"
+                class="btn btn-secondary btn-sm" aria-label="GitHub Repository">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                  </path>
+                </svg>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Machine Learning Prediction API (AI - In Progress) -->
+          <article class="project-card" data-category="ai">
+            <div class="project-card-header">
+              <div class="project-meta-row">
+                <span class="project-category-badge">ML & Backend</span>
+                <span class="status-badge status-progress">
+                  <span class="dot dot-yellow" style="width:6px;height:6px;"></span>
+                  Prototype In Progress
+                </span>
+              </div>
+              <h3 class="project-title">ML Prediction API</h3>
+              <p class="project-tagline">Trained Scikit-learn Pipeline with FastAPI Serving</p>
+            </div>
+
+            <div class="project-card-body">
+              <p class="project-problem-solution">
+                <strong>Problem:</strong> ML models often stay isolated inside Jupyter notebooks without standard API
+                endpoints, input validation, or latency benchmarks.<br>
+                <strong>Solution:</strong> Packaging an evaluated classification model into a modular Python service
+                featuring Pydantic schema validation, feature transformation, probability scoring, and health checks.
+              </p>
+
+              <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">Scikit-learn</span>
+                <span class="project-tag">FastAPI</span>
+                <span class="project-tag">Pandas</span>
+                <span class="project-tag">Pydantic</span>
+                <span class="project-tag">REST API</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <div class="project-card-links">
+                <a href="#architecture" class="project-link">
+                  <span>Backend Spec</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+              <a href="https://github.com/param-siddhpura" target="_blank" rel="noopener noreferrer"
+                class="btn btn-secondary btn-sm" aria-label="GitHub Repository">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                  </path>
+                </svg>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: AI Research Assistant (AI - Planned) -->
+          <article class="project-card" data-category="ai">
+            <div class="project-card-header">
+              <div class="project-meta-row">
+                <span class="project-category-badge">LLM Applications</span>
+                <span class="status-badge status-planned">
+                  <span class="dot dot-yellow" style="width:6px;height:6px;"></span>
+                  Planned Concept
+                </span>
+              </div>
+              <h3 class="project-title">AI Research Assistant</h3>
+              <p class="project-tagline">Multi-Source Information Synthesis Engine</p>
+            </div>
+
+            <div class="project-card-body">
+              <p class="project-problem-solution">
+                <strong>Problem:</strong> Reviewing fragmented technical papers and web reports requires hours of manual
+                entity tracking and cross-comparison.<br>
+                <strong>Proposed Solution:</strong> A workflow tool that organizes research inputs, extracts salient
+                arguments, generates verifiable summaries, and tracks source provenance to prevent factual drifts.
+              </p>
+
+              <div class="project-tags">
+                <span class="project-tag">Prompt Engineering</span>
+                <span class="project-tag">Text Extraction</span>
+                <span class="project-tag">LLM APIs</span>
+                <span class="project-tag">Markdown Output</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <div class="project-card-links">
+                <span class="project-category-badge" style="color:var(--text-muted);">In Planning</span>
+              </div>
+              <a href="https://github.com/param-siddhpura" target="_blank" rel="noopener noreferrer"
+                class="btn btn-secondary btn-sm" aria-label="GitHub Repository">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                  </path>
+                </svg>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4: SportX Ahmedabad Research & Lead Database (Data - Completed) -->
+          <article class="project-card" data-category="data">
+            <div class="project-card-header">
+              <div class="project-meta-row">
+                <span class="project-category-badge">Data Analysis & Research</span>
+                <span class="status-badge status-completed">
+                  <span class="dot dot-green" style="width:6px;height:6px;"></span>
+                  Completed & Verified
+                </span>
+              </div>
+              <h3 class="project-title">SportX Ahmedabad Dataset</h3>
+              <p class="project-tagline">Structured Entity Discovery & Lead Analysis</p>
+            </div>
+
+            <div class="project-card-body">
+              <p class="project-problem-solution">
+                <strong>Problem:</strong> Lack of centralized, validated organizational contacts and sports institute
+                profiles for Ahmedabad regional outreach.<br>
+                <strong>Solution:</strong> In-depth web discovery, data extraction, and structured multi-attribute Excel
+                workbook with complete methodology documentation.
+              </p>
+
+              <div class="project-tags">
+                <span class="project-tag">Web Research</span>
+                <span class="project-tag">Data Extraction</span>
+                <span class="project-tag">MS Excel</span>
+                <span class="project-tag">Data Cleaning</span>
+                <span class="project-tag">Documentation</span>
+              </div>
+
+              <!-- Real Verified Files -->
+              <div class="project-files-list">
+                <div class="project-file-item">
+                  <div class="file-left">
+                    <span class="file-icon-badge file-icon-excel">XLS</span>
+                    <div class="file-details">
+                      <span class="file-title">SportX_Ahmedabad.xlsx</span>
+                      <span class="file-size">Excel Workbook • 216 KB</span>
+                    </div>
+                  </div>
+                  <a href="research/SportX_Ahmedabad.xlsx" download="SportX_Ahmedabad.xlsx"
+                    class="btn btn-secondary btn-sm" aria-label="Download SportX Excel">Download</a>
+                </div>
+
+                <div class="project-file-item">
+                  <div class="file-left">
+                    <span class="file-icon-badge file-icon-word">DOC</span>
+                    <div class="file-details">
+                      <span class="file-title">Documentation.docx</span>
+                      <span class="file-size">Word Document • 38 KB</span>
+                    </div>
+                  </div>
+                  <a href="research/SportX_Ahmedabad_Research_Documentation.docx"
+                    download="SportX_Ahmedabad_Research_Documentation.docx" class="btn btn-secondary btn-sm"
+                    aria-label="Download SportX Documentation">Download</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <span class="project-link" style="color:var(--status-completed); font-weight:600;">
+                ✓ Verified Dataset
+              </span>
+              <span class="status-badge status-completed">Verified</span>
+            </div>
+          </article>
+
+          <!-- Project 5: Sneha Foundation Research & Data Management (Data - Completed) -->
+          <article class="project-card" data-category="data">
+            <div class="project-card-header">
+              <div class="project-meta-row">
+                <span class="project-category-badge">Data Operations</span>
+                <span class="status-badge status-completed">
+                  <span class="dot dot-green" style="width:6px;height:6px;"></span>
+                  Completed & Verified
+                </span>
+              </div>
+              <h3 class="project-title">Sneha Foundation Data System</h3>
+              <p class="project-tagline">Categorical Data Records & Process Documentation</p>
+            </div>
+
+            <div class="project-card-body">
+              <p class="project-problem-solution">
+                <strong>Problem:</strong> Inconsistent records and unstructured tracking across diverse institutional
+                contacts during non-profit campaigns.<br>
+                <strong>Solution:</strong> Developed standardized categorization schemas, outreach logs, and process
+                documentation to ensure data integrity.
+              </p>
+
+              <div class="project-tags">
+                <span class="project-tag">Data Hygiene</span>
+                <span class="project-tag">Recordkeeping</span>
+                <span class="project-tag">Excel Analysis</span>
+                <span class="project-tag">Process Documentation</span>
+              </div>
+
+              <!-- Real Verified Files -->
+              <div class="project-files-list">
+                <div class="project-file-item">
+                  <div class="file-left">
+                    <span class="file-icon-badge file-icon-excel">XLS</span>
+                    <div class="file-details">
+                      <span class="file-title">Research-Excel.xlsx</span>
+                      <span class="file-size">Excel Workbook • 84 KB</span>
+                    </div>
+                  </div>
+                  <a href="research/Research-Excel.xlsx" download="Research-Excel.xlsx"
+                    class="btn btn-secondary btn-sm" aria-label="Download Sneha Excel">Download</a>
+                </div>
+
+                <div class="project-file-item">
+                  <div class="file-left">
+                    <span class="file-icon-badge file-icon-word">DOC</span>
+                    <div class="file-details">
+                      <span class="file-title">Process_Documentation.docx</span>
+                      <span class="file-size">Word Document • 37 KB</span>
+                    </div>
+                  </div>
+                  <a href="research/Research_Excel_Data_Documentation.docx"
+                    download="Research_Excel_Data_Documentation.docx" class="btn btn-secondary btn-sm"
+                    aria-label="Download Sneha Documentation">Download</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <span class="project-link" style="color:var(--status-completed); font-weight:600;">
+                ✓ Operational Data
+              </span>
+              <span class="status-badge status-completed">Verified</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Section 4: Project Case Studies
+         ========================================================================== -->
+    <section class="section section-alt case-studies-section" id="case-studies">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">TECHNICAL DEEP-DIVE</span>
+          <h2 class="section-title">Project Case Studies & Architecture</h2>
+          <p class="section-desc">
+            Rigorous technical breakdowns illustrating system specifications, data pipelines, engineering trade-offs, and
+            evaluation frameworks.
+          </p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="case-study-container">
+          <!-- Tab Navigation -->
+          <div class="case-study-nav">
+            <button class="case-tab-btn active" data-tab="rag-study">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+              <span>Case Study: College Notes AI (RAG Pipeline)</span>
+            </button>
+            <button class="case-tab-btn" data-tab="data-study">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="3" y1="9" x2="21" y2="9"></line>
+                <line x1="3" y1="15" x2="21" y2="15"></line>
+                <line x1="9" y1="3" x2="9" y2="21"></line>
+                <line x1="15" y1="3" x2="15" y2="21"></line>
+              </svg>
+              <span>Case Study: Data Hygiene & Extraction Lifecycle</span>
+            </button>
+          </div>
+
+          <!-- Tab Panel 1: RAG Architecture Case Study -->
+          <div class="case-study-panel active" id="rag-study">
+            <div class="case-header-block">
+              <div class="case-badge-meta">
+                <span class="status-badge status-planned">Architecture Specification</span>
+                <span class="project-category-badge">Applied AI Systems</span>
+              </div>
+              <h3 class="case-title">College Notes AI Assistant: RAG Pipeline Design</h3>
+              <p class="case-intro">
+                A system architecture designed to solve hallucination and courseware irrelevance by grounding LLM
+                responses strictly inside indexed academic documents with traceable source citations.
+              </p>
+            </div>
+
+            <div class="case-details-grid">
+              <div class="case-left-col">
+                <div class="case-section-block">
+                  <h4 class="case-section-title">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <line x1="12" y1="8" x2="12" y2="12"></line>
+                      <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                    </svg>
+                    Problem Statement & Motivation
+                  </h4>
+                  <p class="case-text">
+                    Undergraduate engineering students frequently face exam-time information overload across 500+ pages
+                    of lecture slide PDFs and syllabus notes. Standard commercial LLMs generate convincing yet factually
+                    divergent or out-of-syllabus answers. The objective of this project is to build an application that
+                    restricts answers to uploaded course materials, returns exact page numbers, and refuses to answer
+                    when context is insufficient.
+                  </p>
+                </div>
+
+                <div class="case-section-block">
+                  <h4 class="case-section-title">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                    </svg>
+                    Key Engineering Trade-offs & Decisions
+                  </h4>
+                  <ul class="case-feature-list">
+                    <li>
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 11 12 14 22 4"></polyline>
+                        <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+                      </svg>
+                      <span><strong>Chunk Sizing:</strong> Fixed 500-token chunks with 50-token overlaps to preserve
+                        semantic continuity across formula explanations without overflowing embedding token bounds.</span>
+                    </li>
+                    <li>
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 11 12 14 22 4"></polyline>
+                        <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+                      </svg>
+                      <span><strong>Metadata Tagging:</strong> Preserving source file name, section headers, and slide page
+                        indices inside each vector record for instant citation generation.</span>
+                    </li>
+                    <li>
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 11 12 14 22 4"></polyline>
+                        <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+                      </svg>
+                      <span><strong>Strict Prompt Guardrails:</strong> System instructions forbidding speculation: "Answer
+                        only from the retrieved context. If absent, explicitly respond: 'Information not found in course
+                        notes'."</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="case-section-block">
+                  <h4 class="case-section-title">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                    </svg>
+                    Evaluation Framework (RAG Triad)
+                  </h4>
+                  <p class="case-text">
+                    Evaluation will be benchmarked using the RAG Triad framework: <strong>Context Relevance</strong>
+                    (verifying retrieved chunks match query intent), <strong>Groundedness</strong> (verifying claims in the
+                    response are directly supported by context), and <strong>Answer Relevance</strong> (verifying the
+                    answer addresses the student's question).
+                  </p>
+                </div>
+              </div>
+
+              <!-- Right Col: Visual Architecture Flow -->
+              <div class="case-right-col">
+                <div class="arch-diagram-card">
+                  <div class="arch-header">
+                    <span>Proposed Execution Flow</span>
+                    <span>Spec v1.0</span>
+                  </div>
+
+                  <div class="arch-flow-vertical">
+                    <div class="arch-step-box">
+                      <span class="arch-step-name">1. PDF Parsing & OCR</span>
+                      <span class="arch-step-desc">Extract raw text & slide hierarchy</span>
+                    </div>
+                    <div class="arch-step-arrow">↓</div>
+                    <div class="arch-step-box">
+                      <span class="arch-step-name">2. Semantic Chunking</span>
+                      <span class="arch-step-desc">500 tokens + 50 overlap + metadata</span>
+                    </div>
+                    <div class="arch-step-arrow">↓</div>
+                    <div class="arch-step-box">
+                      <span class="arch-step-name">3. Dense Vector Indexing</span>
+                      <span class="arch-step-desc">ChromaDB / FAISS vector space</span>
+                    </div>
+                    <div class="arch-step-arrow">↓</div>
+                    <div class="arch-step-box">
+                      <span class="arch-step-name">4. Top-k Semantic Query</span>
+                      <span class="arch-step-desc">Cosine similarity retrieval</span>
+                    </div>
+                    <div class="arch-step-arrow">↓</div>
+                    <div class="arch-step-box">
+                      <span class="arch-step-name">5. Context-Fused LLM Inference</span>
+                      <span class="arch-step-desc">Strict system prompt + source citation</span>
+                    </div>
+                    <div class="arch-step-arrow">↓</div>
+                    <div class="arch-step-box">
+                      <span class="arch-step-name">6. Verification & Student UI</span>
+                      <span class="arch-step-desc">JSON response with citations</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="case-footer-notes">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+              <p>
+                <strong>Engineering Note:</strong> This case study defines the target technical specification.
+                Implementation is currently in the active architectural phase. As code milestones are completed,
+                benchmarks and repository links will be updated transparently.
+              </p>
+            </div>
+          </div>
+
+          <!-- Tab Panel 2: Data Preprocessing Case Study -->
+          <div class="case-study-panel" id="data-study">
+            <div class="case-header-block">
+              <div class="case-badge-meta">
+                <span class="status-badge status-completed">Completed Methodology</span>
+                <span class="project-category-badge">Data Engineering & Analysis</span>
+              </div>
+              <h3 class="case-title">Data Extraction & Hygiene Lifecycle (SportX & Sneha Foundation)</h3>
+              <p class="case-intro">
+                Translating raw web discovery and fragmented organizational contacts into structured, normalized
+                datasets—the essential foundation for machine learning feature pipelines.
+              </p>
+            </div>
+
+            <div class="case-details-grid">
+              <div class="case-left-col">
+                <div class="case-section-block">
+                  <h4 class="case-section-title">Context & Challenge</h4>
+                  <p class="case-text">
+                    Real-world data is unstructured, incomplete, and filled with redundancies. In both the SportX
+                    Ahmedabad outreach research and the Sneha Foundation records projects, the goal was to transform
+                    unorganized entity information into reliable, queryable workbooks that non-technical teams could
+                    utilize with zero error rate.
+                  </p>
+                </div>
+
+                <div class="case-section-block">
+                  <h4 class="case-section-title">Methodology & Cleaning Pipeline</h4>
+                  <ul class="case-feature-list">
+                    <li>
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 11 12 14 22 4"></polyline>
+                        <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+                      </svg>
+                      <span><strong>Schema Normalization:</strong> Designed uniform column schemas (Entity ID,
+                        Organization, Category, Primary Lead, Verification Status, Timestamp).</span>
+                    </li>
+                    <li>
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 11 12 14 22 4"></polyline>
+                        <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+                      </svg>
+                      <span><strong>De-duplication & Hygiene:</strong> Cross-verified email domains, eliminated duplicate
+                        entries, and standardized formatting rules.</span>
+                    </li>
+                    <li>
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 11 12 14 22 4"></polyline>
+                        <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+                      </svg>
+                      <span><strong>Process Documentation:</strong> Documented operational assumptions in official Word
+                        briefs to ensure reproducible workflows.</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="case-right-col">
+                <div class="arch-diagram-card">
+                  <div class="arch-header">
+                    <span>Relevance to AI Pipelines</span>
+                    <span>Transferable Skill</span>
+                  </div>
+                  <p class="case-text" style="margin-bottom:1rem;">
+                    In production machine learning and RAG systems, <strong>80% of model quality depends on upstream data
+                      cleanliness</strong>. The rigorous discipline developed through spreadsheet normalization and entity
+                    verification translates directly into:
+                  </p>
+                  <ul class="case-feature-list">
+                    <li>• Constructing high-quality training & validation splits</li>
+                    <li>• Cleaning text corpora prior to tokenization</li>
+                    <li>• Eliminating noisy tokens that degrade vector retrieval</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Section 5: Technical Skills
+         ========================================================================== -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">CAPABILITIES & KNOWLEDGE</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-desc">
+            An authentic inventory of programming competencies, machine learning fundamentals, and applied AI tools.
+            Clear categorization separates practical hands-on skills from technologies actively being studied.
+          </p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="skills-categories-grid">
+          <!-- Category 1: Programming & Data -->
+          <div class="skill-category-card">
+            <div class="skill-card-header">
+              <div class="skill-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-card-title">Programming & Data</h3>
+                <span class="skill-card-badge">Core Foundation</span>
+              </div>
+            </div>
+
+            <div class="skill-chips-list">
+              <span class="skill-chip core">Python</span>
+              <span class="skill-chip core">NumPy</span>
+              <span class="skill-chip core">Pandas</span>
+              <span class="skill-chip">SQL (Fundamentals)</span>
+              <span class="skill-chip">Statistics & Data Analysis</span>
+              <span class="skill-chip">Data Cleaning & Hygiene</span>
+            </div>
+
+            <p class="skill-card-summary">
+              Core language capabilities for scripting, manipulating tabular data, calculating statistical summaries, and
+              preparing raw datasets.
+            </p>
+          </div>
+
+          <!-- Category 2: Machine Learning -->
+          <div class="skill-category-card">
+            <div class="skill-card-header">
+              <div class="skill-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="20" x2="18" y2="10"></line>
+                  <line x1="12" y1="20" x2="12" y2="4"></line>
+                  <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-card-title">Machine Learning</h3>
+                <span class="skill-card-badge">Foundations & Evaluation</span>
+              </div>
+            </div>
+
+            <div class="skill-chips-list">
+              <span class="skill-chip core">Scikit-learn</span>
+              <span class="skill-chip">Data Preprocessing</span>
+              <span class="skill-chip">Feature Engineering</span>
+              <span class="skill-chip">Model Training & Split</span>
+              <span class="skill-chip">Evaluation Metrics (MSE, F1)</span>
+              <span class="skill-chip">Supervised Learning</span>
+            </div>
+
+            <p class="skill-card-summary">
+              Experience with standard classification and regression workflows, train/test cross-validation, and
+              performance metrics.
+            </p>
+          </div>
+
+          <!-- Category 3: Applied AI & LLMs -->
+          <div class="skill-category-card">
+            <div class="skill-card-header">
+              <div class="skill-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="3"></circle>
+                  <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-card-title">Applied AI & LLMs</h3>
+                <span class="skill-card-badge">Intelligent Systems</span>
+              </div>
+            </div>
+
+            <div class="skill-chips-list">
+              <span class="skill-chip core">LLM APIs</span>
+              <span class="skill-chip core">Prompt Design</span>
+              <span class="skill-chip">Text Embeddings</span>
+              <span class="skill-chip">RAG Architectures</span>
+              <span class="skill-chip">Semantic Search</span>
+              <span class="skill-chip">Groundedness Evaluation</span>
+            </div>
+
+            <p class="skill-card-summary">
+              Designing system prompts, generating vector representations, orchestrating context pipelines, and
+              mitigating hallucinations.
+            </p>
+          </div>
+
+          <!-- Category 4: Backend Development -->
+          <div class="skill-category-card">
+            <div class="skill-card-header">
+              <div class="skill-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                  <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                  <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                  <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-card-title">Backend Development</h3>
+                <span class="skill-card-badge">Application Services</span>
+              </div>
+            </div>
+
+            <div class="skill-chips-list">
+              <span class="skill-chip core">FastAPI</span>
+              <span class="skill-chip core">REST APIs</span>
+              <span class="skill-chip">JSON Schemas</span>
+              <span class="skill-chip">Request Validation</span>
+              <span class="skill-chip">Database Concepts</span>
+              <span class="skill-chip">HTTP Client/Server</span>
+            </div>
+
+            <p class="skill-card-summary">
+              Connecting machine learning inference logic to client interfaces via clean, validated RESTful endpoints.
+            </p>
+          </div>
+
+          <!-- Category 5: Developer Tools -->
+          <div class="skill-category-card">
+            <div class="skill-card-header">
+              <div class="skill-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-card-title">Developer Tools</h3>
+                <span class="skill-card-badge">Workflow & Tooling</span>
+              </div>
+            </div>
+
+            <div class="skill-chips-list">
+              <span class="skill-chip core">Git</span>
+              <span class="skill-chip core">GitHub</span>
+              <span class="skill-chip">VS Code</span>
+              <span class="skill-chip">MS Excel (Advanced)</span>
+              <span class="skill-chip">Documentation (Markdown/Word)</span>
+              <span class="skill-chip">Shell Basics</span>
+            </div>
+
+            <p class="skill-card-summary">
+              Version control, collaborative repository management, technical documentation, and structured spreadsheet
+              workflows.
+            </p>
+          </div>
+
+          <!-- Category 6: Currently Learning -->
+          <div class="skill-category-card learning-card">
+            <div class="skill-card-header">
+              <div class="skill-card-icon learning-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 14 14"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-card-title">Currently Learning</h3>
+                <span class="skill-card-badge" style="color:var(--accent-indigo);">Active Study</span>
+              </div>
+            </div>
+
+            <div class="skill-chips-list">
+              <span class="skill-chip">Vector DBs (Chroma / FAISS)</span>
+              <span class="skill-chip">Advanced RAG (Re-ranking)</span>
+              <span class="skill-chip">PyTorch Fundamentals</span>
+              <span class="skill-chip">Docker for ML Serving</span>
+              <span class="skill-chip">LLM Evaluation Frameworks</span>
+            </div>
+
+            <p class="skill-card-summary">
+              Actively expanding knowledge through coursework, tutorials, and practical implementation experiments.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Section 6: How I Build AI Systems (System Architecture)
+         ========================================================================== -->
+    <section class="section section-alt architecture-section" id="architecture">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">ENGINEERING METHODOLOGY</span>
+          <h2 class="section-title">How I Build AI Systems</h2>
+          <p class="section-desc">
+            Reliable AI engineering requires disciplined software engineering: rigorous schema validation, decoupled
+            retrieval, prompt guardrails, and deterministic evaluation.
+          </p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="architecture-showcase">
+          <!-- Accessible SVG Architecture Diagram -->
+          <div class="arch-visual-container">
+            <svg class="arch-svg-diagram" viewBox="0 0 960 260" fill="none" xmlns="http://www.w3.org/2000/svg"
+              aria-label="General AI System Architecture Diagram">
+              <!-- Background Grid Accent -->
+              <rect width="960" height="260" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5" />
+
+              <!-- Box 1: User / Frontend -->
+              <rect x="30" y="70" width="130" height="120" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+              <text x="95" y="110" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700"
+                fill="#0F172A" text-anchor="middle">User / Client</text>
+              <text x="95" y="130" font-family="'JetBrains Mono', monospace" font-size="10" fill="#64748B"
+                text-anchor="middle">Web / UI / REST</text>
+              <text x="95" y="150" font-family="'Inter', sans-serif" font-size="10" fill="#2563EB"
+                text-anchor="middle">Payload & Input</text>
+
+              <!-- Arrow 1 -> 2 -->
+              <path d="M160 130 H205" stroke="#2563EB" stroke-width="2" marker-end="url(#arrow)" />
+
+              <!-- Box 2: Python Backend / API Gateway -->
+              <rect x="215" y="70" width="145" height="120" rx="8" fill="#FFFFFF" stroke="#93C5FD" stroke-width="1.5" />
+              <text x="287" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700"
+                fill="#0F172A" text-anchor="middle">API Gateway</text>
+              <text x="287" y="125" font-family="'JetBrains Mono', monospace" font-size="10" fill="#2563EB"
+                text-anchor="middle">FastAPI / Python</text>
+              <text x="287" y="145" font-family="'Inter', sans-serif" font-size="10" fill="#64748B"
+                text-anchor="middle">Schema Validation</text>
+              <text x="287" y="165" font-family="'Inter', sans-serif" font-size="9" fill="#059669"
+                text-anchor="middle">Pydantic Models</text>
+
+              <!-- Arrow 2 -> 3 -->
+              <path d="M360 130 H405" stroke="#2563EB" stroke-width="2" />
+
+              <!-- Box 3: AI Orchestration / RAG Pipeline -->
+              <rect x="415" y="55" width="165" height="150" rx="8" fill="#EFF6FF" stroke="#3B82F6" stroke-width="2" />
+              <text x="497" y="90" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700"
+                fill="#1E40AF" text-anchor="middle">AI & RAG Pipeline</text>
+              <text x="497" y="112" font-family="'JetBrains Mono', monospace" font-size="10" fill="#2563EB"
+                text-anchor="middle">Prompt Construction</text>
+              <text x="497" y="132" font-family="'Inter', sans-serif" font-size="10" fill="#334155"
+                text-anchor="middle">Embedding Generator</text>
+              <text x="497" y="152" font-family="'Inter', sans-serif" font-size="10" fill="#334155"
+                text-anchor="middle">Cosine Similarity</text>
+              <text x="497" y="172" font-family="'JetBrains Mono', monospace" font-size="9" fill="#64748B"
+                text-anchor="middle">Context Assembly</text>
+
+              <!-- Bi-directional to Vector DB (Downwards from Box 3) -->
+              <!-- Arrow 3 -> 4 -->
+              <path d="M580 130 H625" stroke="#2563EB" stroke-width="2" />
+
+              <!-- Box 4: Retrieval DB -->
+              <rect x="635" y="70" width="140" height="120" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+              <text x="705" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700"
+                fill="#0F172A" text-anchor="middle">Knowledge Store</text>
+              <text x="705" y="125" font-family="'JetBrains Mono', monospace" font-size="10" fill="#4F46E5"
+                text-anchor="middle">Vector DB / Index</text>
+              <text x="705" y="145" font-family="'Inter', sans-serif" font-size="10" fill="#64748B"
+                text-anchor="middle">Chroma / FAISS</text>
+              <text x="705" y="165" font-family="'Inter', sans-serif" font-size="9" fill="#64748B"
+                text-anchor="middle">Relational Records</text>
+
+              <!-- Arrow 4 -> 5 -->
+              <path d="M775 130 H815" stroke="#2563EB" stroke-width="2" />
+
+              <!-- Box 5: Validation & Guardrails -->
+              <rect x="825" y="70" width="115" height="120" rx="8" fill="#FFFFFF" stroke="#86EFAC" stroke-width="1.5" />
+              <text x="882" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700"
+                fill="#0F172A" text-anchor="middle">Verification</text>
+              <text x="882" y="125" font-family="'JetBrains Mono', monospace" font-size="10" fill="#059669"
+                text-anchor="middle">Guardrails</text>
+              <text x="882" y="145" font-family="'Inter', sans-serif" font-size="10" fill="#64748B"
+                text-anchor="middle">Citations Check</text>
+              <text x="882" y="165" font-family="'Inter', sans-serif" font-size="9" fill="#059669"
+                text-anchor="middle">Fact Grounded</text>
+
+              <!-- Arrow definitions -->
+              <defs>
+                <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6"
+                  orient="auto-start-reverse">
+                  <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563EB" />
+                </marker>
+              </defs>
+            </svg>
+          </div>
+
+          <!-- Layer Responsibilities Grid -->
+          <div class="arch-layers-grid">
+            <div class="arch-layer-card">
+              <span class="arch-layer-num">LAYER 01</span>
+              <h4>Client & UI Interface</h4>
+              <p>Receives user questions or document uploads and sends structured JSON HTTP requests to backend endpoints.</p>
+            </div>
+
+            <div class="arch-layer-card">
+              <span class="arch-layer-num">LAYER 02</span>
+              <h4>Backend & Gateway</h4>
+              <p>FastAPI performs schema validation, enforces query length limits, and prevents malformed requests.</p>
+            </div>
+
+            <div class="arch-layer-card">
+              <span class="arch-layer-num">LAYER 03</span>
+              <h4>Context Retrieval</h4>
+              <p>Converts text queries into dense vector embeddings and retrieves the top-k most relevant course chunks.</p>
+            </div>
+
+            <div class="arch-layer-card">
+              <span class="arch-layer-num">LAYER 04</span>
+              <h4>Model Orchestration</h4>
+              <p>Fuses retrieved context with strict system instructions before invoking the LLM inference endpoint.</p>
+            </div>
+
+            <div class="arch-layer-card">
+              <span class="arch-layer-num">LAYER 05</span>
+              <h4>Validation & Evaluation</h4>
+              <p>Ensures answers quote verified document citations and refuses to answer if evidence is insufficient.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Section 7: Experience
+         ========================================================================== -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">PRACTICAL WORK HISTORY</span>
+          <h2 class="section-title">Work Experience</h2>
+          <p class="section-desc">
+            Authentic, verified background highlighting data organization, information discovery, and operational
+            communication.
+          </p>
+          <div class="section-divider"></div>
+        </div>
+
         <div class="experience-timeline">
           <div class="timeline-card">
             <div class="timeline-header">
@@ -365,8 +1340,10 @@
 
             <div class="timeline-body">
               <p class="experience-intro">
-                Provided research, outreach, data management, and administrative support directly to the organization:
+                Provided research, data management, and operational outreach support directly to the foundation, ensuring
+                accuracy across institutional records and partnership correspondence:
               </p>
+
               <ul class="responsibility-list">
                 <li>
                   <span class="bullet-icon">
@@ -375,29 +1352,8 @@
                       <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                     </svg>
                   </span>
-                  <span>Conducted online and web-based research to identify relevant contacts, organizations, and
-                    academic programmes.</span>
-                </li>
-                <li>
-                  <span class="bullet-icon">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                      <circle cx="8.5" cy="7" r="4"></circle>
-                      <line x1="20" y1="8" x2="20" y2="14"></line>
-                      <line x1="23" y1="11" x2="17" y2="11"></line>
-                    </svg>
-                  </span>
-                  <span>Generated email leads to support organizational outreach activities.</span>
-                </li>
-                <li>
-                  <span class="bullet-icon">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                      <polyline points="14 2 14 8 20 8"></polyline>
-                    </svg>
-                  </span>
-                  <span>Collected, organized, and maintained lead and contact information for ongoing outreach
-                    efforts.</span>
+                  <span><strong>Web & Institutional Research:</strong> Conducted targeted web discovery to identify and
+                    verify institutional contacts, partner organizations, and academic programmes.</span>
                 </li>
                 <li>
                   <span class="bullet-icon">
@@ -409,17 +1365,8 @@
                       <line x1="15" y1="3" x2="15" y2="21"></line>
                     </svg>
                   </span>
-                  <span>Organized and managed data using MS Excel, ensuring accuracy and consistency of records.</span>
-                </li>
-                <li>
-                  <span class="bullet-icon">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <line x1="18" y1="20" x2="18" y2="10"></line>
-                      <line x1="12" y1="20" x2="12" y2="4"></line>
-                      <line x1="6" y1="20" x2="6" y2="14"></line>
-                    </svg>
-                  </span>
-                  <span>Analyzed data in Excel to support outreach planning and maintain up-to-date records.</span>
+                  <span><strong>Data Hygiene & Structuring:</strong> Organized and maintained structured records using MS
+                    Excel, standardizing data schemas and verifying consistency across contact datasets.</span>
                 </li>
                 <li>
                   <span class="bullet-icon">
@@ -428,19 +1375,8 @@
                       <polyline points="22,6 12,13 2,6"></polyline>
                     </svg>
                   </span>
-                  <span>Managed professional email communication on behalf of Sneha Foundation, including reading,
-                    responding to, and organizing correspondence.</span>
-                </li>
-                <li>
-                  <span class="bullet-icon">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                      <polyline points="14 2 14 8 20 8"></polyline>
-                      <line x1="16" y1="13" x2="8" y2="13"></line>
-                      <line x1="16" y1="17" x2="8" y2="17"></line>
-                    </svg>
-                  </span>
-                  <span>Prepared applications, official letters, and other documents using MS Word.</span>
+                  <span><strong>Professional Communication:</strong> Managed formal correspondence on behalf of the
+                    foundation, drafting structured emails, official letters, and application documents.</span>
                 </li>
                 <li>
                   <span class="bullet-icon">
@@ -449,263 +1385,18 @@
                       <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
                     </svg>
                   </span>
-                  <span>Provided research, outreach, data management, and administrative support to the
-                    organization.</span>
+                  <span><strong>Documentation Preparation:</strong> Compiled technical research notes and procedural
+                    documentation using MS Word to preserve organizational memory.</span>
                 </li>
               </ul>
-            </div>
-          </div>
-        </div>
 
-        <!-- What I Worked On Grid -->
-        <div class="worked-on-container">
-          <h3 class="subsection-title">What I Worked On</h3>
-          <div class="worked-on-grid">
-            <div class="category-card">
-              <div class="category-header">
-                <div class="cat-icon cat-blue">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <circle cx="11" cy="11" r="8"></circle>
-                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                  </svg>
-                </div>
-                <h4>Research & Information Gathering</h4>
-              </div>
-              <p>Conducted targeted web research to map out academic programmes, partner organizations, and key outreach
-                contacts.</p>
-            </div>
-
-            <div class="category-card">
-              <div class="category-header">
-                <div class="cat-icon cat-indigo">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                    <circle cx="9" cy="7" r="4"></circle>
-                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                  </svg>
-                </div>
-                <h4>Lead Generation & Outreach</h4>
-              </div>
-              <p>Extracted and systematically cataloged verified email contacts to support organizational campaigns and
-                outreach.</p>
-            </div>
-
-            <div class="category-card">
-              <div class="category-header">
-                <div class="cat-icon cat-teal">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                    <line x1="3" y1="9" x2="21" y2="9"></line>
-                    <line x1="3" y1="15" x2="21" y2="15"></line>
-                    <line x1="9" y1="3" x2="9" y2="21"></line>
-                    <line x1="15" y1="3" x2="15" y2="21"></line>
-                  </svg>
-                </div>
-                <h4>Data Organization & Analysis</h4>
-              </div>
-              <p>Maintained structured MS Excel workbooks, verified entry consistency, and analyzed datasets to assist
-                planning.</p>
-            </div>
-
-            <div class="category-card">
-              <div class="category-header">
-                <div class="cat-icon cat-slate">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                    <polyline points="22,6 12,13 2,6"></polyline>
-                  </svg>
-                </div>
-                <h4>Communication & Documentation</h4>
-              </div>
-              <p>Drafted official letters and applications using MS Word while managing primary email channels with
-                precision.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Research Section -->
-    <section class="section research-section" id="research">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-subtitle">PORTFOLIO WORK & CASE STUDIES</span>
-          <h2 class="section-title">Research & Data Work</h2>
-          <div class="section-divider"></div>
-        </div>
-
-        <div class="research-intro-banner">
-          <p>Explore practical research documentation, lead databases, and structured Excel workbooks compiled by Param
-            Siddhpura. You can download the complete research workbooks and technical documentation directly below.</p>
-        </div>
-
-        <div class="research-grid">
-          <!-- Research Card 1 -->
-          <div class="research-card">
-            <div class="research-card-header">
-              <div class="research-badge-group">
-                <span class="res-badge res-badge-excel">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                    <line x1="3" y1="9" x2="21" y2="9"></line>
-                    <line x1="3" y1="15" x2="21" y2="15"></line>
-                    <line x1="9" y1="3" x2="9" y2="21"></line>
-                    <line x1="15" y1="3" x2="15" y2="21"></line>
-                  </svg>
-                  Dataset & Doc
-                </span>
-                <span class="res-badge res-badge-type">Outreach Research</span>
-              </div>
-              <h3 class="research-card-title">SportX Ahmedabad Research & Lead Database</h3>
-            </div>
-
-            <div class="research-card-body">
-              <p class="research-card-desc">
-                Comprehensive web research, contact discovery, and structured Excel lead database compiled for SportX
-                Ahmedabad outreach along with detailed research documentation.
-              </p>
-
-              <div class="research-tags">
-                <span class="tag">SportX Research</span>
-                <span class="tag">Lead Generation</span>
-                <span class="tag">Web Data Extraction</span>
-                <span class="tag">MS Excel Analysis</span>
-              </div>
-
-              <div class="research-files-list">
-                <div class="file-item">
-                  <div class="file-icon excel-icon">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                      <polyline points="14 2 14 8 20 8"></polyline>
-                      <line x1="8" y1="13" x2="16" y2="13"></line>
-                      <line x1="8" y1="17" x2="16" y2="17"></line>
-                    </svg>
-                  </div>
-                  <div class="file-info">
-                    <span class="file-name">SportX_Ahmedabad.xlsx</span>
-                    <span class="file-meta">MS Excel Workbook • 216 KB</span>
-                  </div>
-                  <a href="research/SportX_Ahmedabad.xlsx" download="SportX_Ahmedabad.xlsx"
-                    class="btn btn-secondary btn-sm file-dl-btn">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                      <polyline points="7 10 12 15 17 10"></polyline>
-                      <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                    <span>Download</span>
-                  </a>
-                </div>
-
-                <div class="file-item">
-                  <div class="file-icon doc-icon">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                      <polyline points="14 2 14 8 20 8"></polyline>
-                      <line x1="16" y1="13" x2="8" y2="13"></line>
-                      <line x1="16" y1="17" x2="8" y2="17"></line>
-                    </svg>
-                  </div>
-                  <div class="file-info">
-                    <span class="file-name">SportX_Ahmedabad_Research_Documentation.docx</span>
-                    <span class="file-meta">MS Word Document • 38 KB</span>
-                  </div>
-                  <a href="research/SportX_Ahmedabad_Research_Documentation.docx"
-                    download="SportX_Ahmedabad_Research_Documentation.docx"
-                    class="btn btn-secondary btn-sm file-dl-btn">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                      <polyline points="7 10 12 15 17 10"></polyline>
-                      <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                    <span>Download</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Research Card 2 -->
-          <div class="research-card">
-            <div class="research-card-header">
-              <div class="research-badge-group">
-                <span class="res-badge res-badge-excel">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                    <line x1="3" y1="9" x2="21" y2="9"></line>
-                    <line x1="3" y1="15" x2="21" y2="15"></line>
-                    <line x1="9" y1="3" x2="9" y2="21"></line>
-                    <line x1="15" y1="3" x2="15" y2="21"></line>
-                  </svg>
-                  Data Analysis & Doc
-                </span>
-                <span class="res-badge res-badge-type">Data Management</span>
-              </div>
-              <h3 class="research-card-title">Sneha Foundation Research</h3>
-            </div>
-
-            <div class="research-card-body">
-              <p class="research-card-desc">
-                Structured research data collection workbook, categorization framework, and analytical recordkeeping
-                paired with official operational documentation.
-              </p>
-
-              <div class="research-tags">
-                <span class="tag">Data Organization</span>
-                <span class="tag">Recordkeeping</span>
-                <span class="tag">Excel Analysis</span>
-                <span class="tag">Process Documentation</span>
-              </div>
-
-              <div class="research-files-list">
-                <div class="file-item">
-                  <div class="file-icon excel-icon">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                      <polyline points="14 2 14 8 20 8"></polyline>
-                      <line x1="8" y1="13" x2="16" y2="13"></line>
-                      <line x1="8" y1="17" x2="16" y2="17"></line>
-                    </svg>
-                  </div>
-                  <div class="file-info">
-                    <span class="file-name">Research-Excel.xlsx</span>
-                    <span class="file-meta">MS Excel Workbook • 84 KB</span>
-                  </div>
-                  <a href="research/Research-Excel.xlsx" download="Research-Excel.xlsx"
-                    class="btn btn-secondary btn-sm file-dl-btn">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                      <polyline points="7 10 12 15 17 10"></polyline>
-                      <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                    <span>Download</span>
-                  </a>
-                </div>
-
-                <div class="file-item">
-                  <div class="file-icon doc-icon">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                      <polyline points="14 2 14 8 20 8"></polyline>
-                      <line x1="16" y1="13" x2="8" y2="13"></line>
-                      <line x1="16" y1="17" x2="8" y2="17"></line>
-                    </svg>
-                  </div>
-                  <div class="file-info">
-                    <span class="file-name">Research_Excel_Data_Documentation.docx</span>
-                    <span class="file-meta">MS Word Document • 37 KB</span>
-                  </div>
-                  <a href="research/Research_Excel_Data_Documentation.docx"
-                    download="Research_Excel_Data_Documentation.docx" class="btn btn-secondary btn-sm file-dl-btn">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                      <polyline points="7 10 12 15 17 10"></polyline>
-                      <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                    <span>Download</span>
-                  </a>
-                </div>
+              <div class="transferable-skills-banner">
+                <h4>Transferable Engineering Foundation</h4>
+                <p>
+                  This work instilled strong attention to data hygiene, schema discipline, and error checking—core habits
+                  directly applicable to curating quality training datasets, cleaning text corpora, and debugging data
+                  pipelines in Applied AI projects.
+                </p>
               </div>
             </div>
           </div>
@@ -713,269 +1404,179 @@
       </div>
     </section>
 
-    <!-- Skills Section -->
-    <section class="section skills-section" id="skills">
+    <!-- ==========================================================================
+         Section 8: Education & Reference
+         ========================================================================== -->
+    <section class="section section-alt education-section" id="education">
       <div class="container">
         <div class="section-header">
-          <span class="section-subtitle">CAPABILITIES & TOOLS</span>
-          <h2 class="section-title">Key Skills</h2>
-          <div class="section-divider"></div>
-        </div>
-
-        <div class="skills-grid">
-          <!-- Skill Category 1 -->
-          <div class="skill-group-card">
-            <div class="group-header">
-              <div class="group-icon">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <circle cx="11" cy="11" r="8"></circle>
-                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                </svg>
-              </div>
-              <h3>Research & Analysis</h3>
-            </div>
-            <div class="skill-chips-container">
-              <span class="skill-chip">Online Research</span>
-              <span class="skill-chip">Web Research</span>
-              <span class="skill-chip">Data Collection</span>
-              <span class="skill-chip">Data Organization</span>
-              <span class="skill-chip">Data Analysis</span>
-              <span class="skill-chip">Lead Generation</span>
-              <span class="skill-chip">Data Scrapping</span>
-            </div>
-          </div>
-
-          <!-- Skill Category 2 -->
-          <div class="skill-group-card">
-            <div class="group-header">
-              <div class="group-icon">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-                  <line x1="8" y1="21" x2="16" y2="21"></line>
-                  <line x1="12" y1="17" x2="12" y2="21"></line>
-                </svg>
-              </div>
-              <h3>Microsoft Office</h3>
-            </div>
-            <div class="skill-chips-container">
-              <span class="skill-chip chip-highlight">MS Excel (Data & Records)</span>
-              <span class="skill-chip chip-highlight">MS Word (Docs & Letters)</span>
-              <span class="skill-chip chip-highlight">MS PowerPoint</span>
-            </div>
-          </div>
-
-          <!-- Skill Category 3 -->
-          <div class="skill-group-card">
-            <div class="group-header">
-              <div class="group-icon">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                </svg>
-              </div>
-              <h3>Communication</h3>
-            </div>
-            <div class="skill-chips-container">
-              <span class="skill-chip">Professional Email Communication</span>
-              <span class="skill-chip">Written English</span>
-              <span class="skill-chip">Business Correspondence</span>
-              <span class="skill-chip">Email Management</span>
-            </div>
-          </div>
-
-          <!-- Skill Category 4 -->
-          <div class="skill-group-card">
-            <div class="group-header">
-              <div class="group-icon">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <circle cx="12" cy="12" r="10"></circle>
-                  <line x1="2" y1="12" x2="22" y2="12"></line>
-                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
-                  </path>
-                </svg>
-              </div>
-              <h3>Digital Skills</h3>
-            </div>
-            <div class="skill-chips-container">
-              <span class="skill-chip">Web Research</span>
-              <span class="skill-chip">Canva</span>
-              <span class="skill-chip">Social Media Management</span>
-              <span class="skill-chip">Data Management</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Education Section -->
-    <section class="section education-section" id="education">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-subtitle">ACADEMIC QUALIFICATIONS</span>
+          <span class="section-subtitle">ACADEMIC FOUNDATION</span>
           <h2 class="section-title">Education & References</h2>
+          <p class="section-desc">
+            Formal engineering degree studies and verified technical references.
+          </p>
           <div class="section-divider"></div>
         </div>
 
         <div class="education-grid">
-          <!-- Main Education Card -->
+          <!-- Education Card -->
           <div class="education-card">
-            <div class="edu-badge">DEGREE PROGRAMME</div>
+            <span class="edu-badge">UNDERGRADUATE DEGREE</span>
             <div class="edu-main">
               <h3 class="degree-title">Bachelor of Engineering in Information Technology</h3>
-              <div class="institution-name">
+              <div class="institution-meta">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
                   <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
                 </svg>
-                <span>Shantilal Shah Engineering College, GTU</span>
+                <span>Shantilal Shah Government Engineering College, Bhavnagar<br>Gujarat Technological University (GTU)</span>
               </div>
             </div>
-            <div class="edu-footer">
-              <div class="grad-year">
-                <span class="label">Expected Graduation:</span>
-                <span class="value">2028</span>
+
+            <div class="coursework-box">
+              <h4>Core Engineering Coursework</h4>
+              <div class="coursework-tags">
+                <span class="coursework-tag">Data Structures & Algorithms</span>
+                <span class="coursework-tag">Database Management (DBMS)</span>
+                <span class="coursework-tag">Python Programming</span>
+                <span class="coursework-tag">Object-Oriented Programming</span>
+                <span class="coursework-tag">Computer Networks</span>
+                <span class="coursework-tag">Discrete Mathematics</span>
               </div>
-              <div class="edu-tag">Information Technology</div>
+            </div>
+
+            <div class="edu-footer">
+              <div>
+                <span>Academic Status:</span> <strong>2024 – 2028 (Expected)</strong>
+              </div>
+              <span class="status-badge status-completed">In Good Standing</span>
             </div>
           </div>
 
           <!-- Reference Card -->
           <div class="reference-card">
-            <div class="ref-badge">PROFESSIONAL REFERENCE</div>
+            <span class="ref-badge">PROFESSIONAL REFERENCE</span>
             <div class="ref-main">
               <h3 class="ref-name">Ashvin Solanki</h3>
               <span class="ref-title">Software Engineer</span>
-              <div class="ref-contact">
+              <div class="ref-contact-row">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <path
                     d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
                   </path>
                 </svg>
-                <a href="tel:+917820072009" class="phone-link">+91 78200 72009</a>
+                <a href="tel:+917820072009" class="val-link">+91 78200 72009</a>
               </div>
             </div>
-            <p class="ref-note">Reference available upon request for verification of technical aptitude and
-              collaboration capabilities.</p>
+
+            <p class="ref-note">
+              Professional reference available for verification of technical aptitude, work ethics, and project
+              collaboration.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- "What I Bring" Section -->
-    <section class="section strengths-section" id="strengths">
+    <!-- ==========================================================================
+         Section 9: Certifications & Technical Milestones
+         ========================================================================== -->
+    <section class="section certifications-section" id="certifications">
       <div class="container">
         <div class="section-header">
-          <span class="section-subtitle">CORE VALUE PROPOSITION</span>
-          <h2 class="section-title">What I Bring to the Team</h2>
+          <span class="section-subtitle">CONTINUOUS LEARNING</span>
+          <h2 class="section-title">Certifications & Milestones</h2>
+          <p class="section-desc">
+            Technical milestones, academic engineering certifications, and ongoing coursework tracking career development.
+          </p>
           <div class="section-divider"></div>
         </div>
 
-        <div class="strengths-grid">
-          <!-- Card 1 -->
-          <div class="strength-card">
-            <div class="strength-icon">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="11" cy="11" r="8"></circle>
-                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-              </svg>
+        <div class="milestones-grid">
+          <!-- Milestone 1 -->
+          <div class="milestone-card">
+            <div class="milestone-top">
+              <div class="milestone-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <span class="milestone-tag">Academic</span>
             </div>
-            <h3>Research Mindset</h3>
-            <p>Able to find, review, and organize information from online sources with thoroughness and analytical
-              discipline.</p>
-          </div>
-
-          <!-- Card 2 -->
-          <div class="strength-card">
-            <div class="strength-icon">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                <line x1="3" y1="9" x2="21" y2="9"></line>
-                <line x1="3" y1="15" x2="21" y2="15"></line>
-                <line x1="9" y1="3" x2="9" y2="21"></line>
-                <line x1="15" y1="3" x2="15" y2="21"></line>
-              </svg>
-            </div>
-            <h3>Data Discipline</h3>
-            <p>Focused on accuracy, consistency, and structured data management across spreadsheets and databases.</p>
-          </div>
-
-          <!-- Card 3 -->
-          <div class="strength-card">
-            <div class="strength-icon">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                <polyline points="22,6 12,13 2,6"></polyline>
-              </svg>
-            </div>
-            <h3>Communication</h3>
-            <p>Comfortable with professional email communication, business correspondence, and organizational outreach.
+            <h3 class="milestone-title">IT Engineering Core Curriculum</h3>
+            <span class="milestone-issuer">Gujarat Technological University</span>
+            <p class="milestone-desc">
+              Comprehensive coursework covering algorithms, programming fundamentals, relational database management, and
+              computer system foundations.
             </p>
           </div>
 
-          <!-- Card 4 -->
-          <div class="strength-card">
-            <div class="strength-icon">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <polyline points="9 11 12 14 22 4"></polyline>
-                <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
-              </svg>
+          <!-- Milestone 2 -->
+          <div class="milestone-card">
+            <div class="milestone-top">
+              <div class="milestone-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <span class="milestone-tag">Programming</span>
             </div>
-            <h3>Attention to Detail</h3>
-            <p>Careful with records, official documentation, correspondence formatting, and information organization.
+            <h3 class="milestone-title">Python for Data Analysis & AI</h3>
+            <span class="milestone-issuer">Hands-on Technical Practice</span>
+            <p class="milestone-desc">
+              Practical application of Python, NumPy arrays, Pandas DataFrames, and structured data preprocessing routines
+              for machine learning pipelines.
+            </p>
+          </div>
+
+          <!-- Milestone 3: Future Target -->
+          <div class="milestone-card" style="border-style:dashed;">
+            <div class="milestone-top">
+              <div class="milestone-icon" style="background-color:var(--bg-subtle);color:var(--text-muted);">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="8" x2="12" y2="12"></line>
+                  <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                </svg>
+              </div>
+              <span class="milestone-tag">In Progress</span>
+            </div>
+            <h3 class="milestone-title">Applied Machine Learning & Deep Learning</h3>
+            <span class="milestone-issuer">Target Certification Track</span>
+            <p class="milestone-desc">
+              Actively preparing for specialized certifications in machine learning fundamentals, deep learning, and cloud-based
+              AI deployments.
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Resume CTA Section -->
-    <section class="resume-cta-section">
-      <div class="container">
-        <div class="cta-banner">
-          <div class="cta-content">
-            <span class="cta-badge">CAREER OPPORTUNITY</span>
-            <h2 class="cta-title">Looking for an Analyst opportunity</h2>
-            <p class="cta-description">Interested in research, data management, outreach, and analytical work.</p>
-          </div>
-          <div class="cta-actions">
-            <a href="assets/Resume.pdf" download="Resume.pdf" class="btn btn-light btn-lg">
-              <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2">
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                <polyline points="7 10 12 15 17 10"></polyline>
-                <line x1="12" y1="15" x2="12" y2="3"></line>
-              </svg>
-              <span>Download Resume</span>
-            </a>
-            <a href="https://www.linkedin.com/in/param-siddhpura-749522366" target="_blank" rel="noopener noreferrer"
-              class="btn btn-outline-light btn-lg">
-              <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2">
-                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                <rect x="2" y="9" width="4" height="12"></rect>
-                <circle cx="4" cy="4" r="2"></circle>
-              </svg>
-              <span>Connect on LinkedIn</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="section contact-section" id="contact">
+    <!-- ==========================================================================
+         Section 10: Contact
+         ========================================================================== -->
+    <section class="section section-alt contact-section" id="contact">
       <div class="container">
         <div class="section-header">
           <span class="section-subtitle">GET IN TOUCH</span>
-          <h2 class="section-title">Contact Me</h2>
+          <h2 class="section-title">Contact & Collaboration</h2>
+          <p class="section-desc">
+            Open to discussions regarding AI internships, applied machine learning projects, research initiatives, and
+            junior developer opportunities.
+          </p>
           <div class="section-divider"></div>
         </div>
 
         <div class="contact-grid">
           <!-- Direct Details -->
           <div class="contact-info-panel">
-            <h3>Direct Contact Details</h3>
-            <p class="contact-intro">Feel free to reach out via email or telephone for inquiries regarding analyst
-              roles, research projects, or data management opportunities.</p>
+            <h3>Direct Contact Channels</h3>
+            <p class="contact-intro">
+              Whether you are a recruiter, software engineer, or academic collaborator, feel free to reach out directly
+              via email or LinkedIn.
+            </p>
 
             <div class="contact-method-list">
               <div class="contact-item">
@@ -994,13 +1595,43 @@
               <div class="contact-item">
                 <div class="contact-icon">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </div>
+                <div class="contact-details">
+                  <span class="label">LinkedIn Profile</span>
+                  <a href="https://www.linkedin.com/in/param-siddhpura/" target="_blank" rel="noopener noreferrer"
+                    class="val-link">linkedin.com/in/param-siddhpura</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                    </path>
+                  </svg>
+                </div>
+                <div class="contact-details">
+                  <span class="label">GitHub Profile</span>
+                  <a href="https://github.com/param-siddhpura" target="_blank" rel="noopener noreferrer"
+                    class="val-link">github.com/param-siddhpura</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path
                       d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
                     </path>
                   </svg>
                 </div>
                 <div class="contact-details">
-                  <span class="label">Phone Number</span>
+                  <span class="label">Telephone</span>
                   <a href="tel:+919925040278" class="val-link">+91 99250 40278</a>
                 </div>
               </div>
@@ -1017,57 +1648,50 @@
                   <span class="val-text">Bhavnagar, Gujarat, India</span>
                 </div>
               </div>
+            </div>
 
-              <div class="contact-item">
-                <div class="contact-icon">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                    <rect x="2" y="9" width="4" height="12"></rect>
-                    <circle cx="4" cy="4" r="2"></circle>
-                  </svg>
-                </div>
-                <div class="contact-details">
-                  <span class="label">LinkedIn Profile</span>
-                  <a href="https://www.linkedin.com/in/param-siddhpura-749522366" target="_blank"
-                    rel="noopener noreferrer" class="val-link">param-siddhpura-749522366</a>
-                </div>
-              </div>
+            <div class="contact-invitation-box">
+              <h4>Recruiter & Team Invitation</h4>
+              <p>
+                Interested in evaluating my code or discussing internship opportunities? I welcome code reviews,
+                technical problem sets, and practical assignments.
+              </p>
             </div>
           </div>
 
-          <!-- Contact Form -->
+          <!-- Quick Message Preparer (Functional Client-Side Mailto) -->
           <div class="contact-form-panel">
-            <form id="contact-form" class="contact-form" novalidate>
-              <h3>Send a Message</h3>
+            <h3>Prepare an Email</h3>
+            <p class="form-subtitle">Fill in the fields below to prepare a message directly to prasidd1965@gmail.com.</p>
 
+            <form id="contact-form" class="contact-form" novalidate>
               <div class="form-group">
-                <label for="user-name">Full Name <span class="required">*</span></label>
-                <input type="text" id="user-name" name="name" class="form-input" placeholder="e.g. Rahul Sharma"
+                <label for="user-name">Your Full Name <span class="required">*</span></label>
+                <input type="text" id="user-name" name="name" class="form-input" placeholder="e.g. Dr. Jane Doe / Rahul Sharma"
                   required>
               </div>
 
               <div class="form-group">
-                <label for="user-email">Email Address <span class="required">*</span></label>
-                <input type="email" id="user-email" name="email" class="form-input" placeholder="name@example.com"
+                <label for="user-email">Your Email Address <span class="required">*</span></label>
+                <input type="email" id="user-email" name="email" class="form-input" placeholder="name@company.com"
                   required>
               </div>
 
               <div class="form-group">
                 <label for="user-subject">Subject</label>
                 <input type="text" id="user-subject" name="subject" class="form-input"
-                  placeholder="Analyst Opportunity Inquiry">
+                  placeholder="AI Internship / Project Inquiry" value="AI Engineering Discussion / Opportunity">
               </div>
 
               <div class="form-group">
                 <label for="user-message">Message <span class="required">*</span></label>
                 <textarea id="user-message" name="message" class="form-input form-textarea" rows="4"
-                  placeholder="Hello Param, I saw your portfolio and would like to discuss..." required></textarea>
+                  placeholder="Hi Param, I saw your portfolio and would like to discuss..." required></textarea>
               </div>
 
               <button type="submit" class="btn btn-primary w-full">
-                <span>Send Message</span>
-                <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                  stroke-width="2">
+                <span>Open in Email Client</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <line x1="22" y1="2" x2="11" y2="13"></line>
                   <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
                 </svg>
@@ -1081,48 +1705,65 @@
     </section>
   </main>
 
-  <!-- Footer -->
+  <!-- ==========================================================================
+       Section 11: Footer
+       ========================================================================== -->
   <footer class="site-footer">
     <div class="container footer-container">
       <div class="footer-top">
         <div class="footer-brand">
           <span class="footer-name">Param Siddhpura</span>
-          <p class="footer-tagline">Analyst | Research & Data Management</p>
-          <p class="footer-loc">Bhavnagar, Gujarat, India</p>
+          <p class="footer-tagline">Aspiring Applied AI Engineer • BE Information Technology</p>
+          <p class="footer-loc">Shantilal Shah Govt Engg College (GTU) • Bhavnagar, Gujarat, India</p>
         </div>
 
-        <div class="footer-links">
+        <div class="footer-col">
+          <h4 class="footer-col-title">Navigation</h4>
           <ul class="footer-nav">
             <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects & RAG</a></li>
+            <li><a href="#case-studies">Case Studies</a></li>
             <li><a href="#skills">Skills</a></li>
+            <li><a href="#architecture">Architecture</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
 
-        <div class="footer-social">
-          <a href="https://www.linkedin.com/in/param-siddhpura-749522366" target="_blank" rel="noopener noreferrer"
-            class="social-icon-btn" aria-label="LinkedIn">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-              <rect x="2" y="9" width="4" height="12"></rect>
-              <circle cx="4" cy="4" r="2"></circle>
-            </svg>
-          </a>
-          <a href="mailto:prasidd1965@gmail.com" class="social-icon-btn" aria-label="Email">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-              <polyline points="22,6 12,13 2,6"></polyline>
-            </svg>
-          </a>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Connect</h4>
+          <div class="footer-social-links">
+            <a href="https://github.com/param-siddhpura" target="_blank" rel="noopener noreferrer"
+              class="social-icon-btn" aria-label="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                </path>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/param-siddhpura/" target="_blank" rel="noopener noreferrer"
+              class="social-icon-btn" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+            <a href="mailto:prasidd1965@gmail.com" class="social-icon-btn" aria-label="Email">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <p class="copyright">&copy; 2026 Param Siddhpura. All rights reserved.</p>
-        <p class="source-note">Based strictly on official resume credentials.</p>
+        <p class="copyright">&copy; 2026 Param Siddhpura. All verified credentials preserved.</p>
+        <p class="source-note">Engineered with semantic HTML, modern CSS & vanilla JS. Hosted on GitHub Pages.</p>
       </div>
     </div>
   </footer>
